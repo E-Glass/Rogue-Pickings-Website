@@ -172,7 +172,6 @@ footer span {
 }
 
 @media all and (min-width:768px) {
-    /* Tablet styles here */
 	.section-one,
 	.section-two,
 	.section-three {
@@ -190,10 +189,25 @@ footer span {
 			justify-content: center;
 			align-items: center;
 			flex-flow:wrap;
+			border-bottom: 1px solid #eee;
+    .section-two {
+			border-left: 1px solid #eee;
+			border-right: 1px solid #eee;
+			}
 		}
 }
  
 @media all and (min-width:1200px) {
     /* Desktop styles here */
- 
+	header h1 {
+		width: ;
+		padding: ;
+		border-bottom: ;
+		text-align: ;
+	  }
+	
+	  header nav ul {
+		margin: 0;
+		padding: 0;
+	}
 }
